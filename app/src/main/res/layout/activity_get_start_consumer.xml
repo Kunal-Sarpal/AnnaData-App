@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/green_light_bg"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Farmer Image -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewFarmer1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/andata"
+        android:contentDescription="Image of Anna Data"
+        android:padding="24dp"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        android:layout_marginBottom="30dp"
+        />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:elevation="10dp"
+        android:layout_height="200dp"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        android:src="@drawable/startlogo"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="300dp"
+        />
+
+
+    <!-- Farmer Image 1 -->
+
+
+    <!-- Farmer Image 2 -->
+
+    <!-- Farmer Login Button -->
+
+
+
+
+    <!-- Consumer Image -->
+
+
+    <!-- Consumer Login Button -->
+    <Button
+        android:id="@+id/buttonConsumerLogin11"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/medium_green"
+        android:drawableEnd="@drawable/arrow1"
+        android:elevation="30dp"
+        android:padding="10dp"
+        android:paddingHorizontal="100dp"
+        android:text="Get Started"
+        android:textColor="#FFFFE0"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewConsumer" />
+
+</LinearLayout>

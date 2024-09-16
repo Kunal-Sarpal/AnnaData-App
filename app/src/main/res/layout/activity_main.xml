@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_light_bg"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+  <!-- Farmer Image -->
+  <ImageView
+      android:id="@+id/imageViewFarmer1"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:contentDescription="Image of Anna Data"
+      android:elevation="300dp"
+      android:paddingHorizontal="80dp"
+      android:paddingBottom="15dp"
+      android:src="@drawable/andata"
+      app:flow_horizontalAlign="center"
+      app:flow_verticalAlign="center"
+      app:layout_constraintBottom_toTopOf="@+id/imageViewFarmer2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.3" />
+
+  <!-- Farmer Image -->
+  <ImageView
+      android:id="@+id/imageViewFarmer2"
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:background="@drawable/rectangleview"
+      android:contentDescription="Image of Farmer"
+      android:elevation="20dp"
+      android:src="@drawable/imgg"
+      app:layout_constraintBottom_toTopOf="@+id/buttonConsumerLogin1"
+      app:layout_constraintEnd_toEndOf="parent"
+
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageViewFarmer1" />
+
+  <!-- Farmer Login Button -->
+  <Button
+      android:id="@+id/buttonConsumerLogin1"
+      android:layout_width="220dp"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/dark_green"
+      android:padding="10dp"
+      android:text="Login as Consumer"
+      android:textColor="#FFFFE0"
+      android:textSize="17dp"
+
+      android:layout_marginTop="15dp"
+      android:textStyle="normal"
+      app:layout_constraintBottom_toTopOf="@+id/textViewOr"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageViewFarmer2" />
+
+  <!-- OR Text -->
+  <TextView
+      android:id="@+id/textViewOr"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="OR"
+      android:layout_marginVertical="10dp"
+      android:textColor="#757575"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/imageViewConsumer"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/buttonConsumerLogin1" />
+
+  <!-- Consumer Image -->
+  <ImageView
+      android:id="@+id/imageViewConsumer"
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:background="@drawable/rectangleview"
+      android:contentDescription="Image of Consumer"
+      android:elevation="20dp"
+      android:src="@drawable/imgg"
+      app:layout_constraintBottom_toTopOf="@+id/buttonConsumerLogin1"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewOr" />
+
+  <!-- Consumer Login Button -->
+  <Button
+      android:id="@+id/buttonFarmerLogin"
+      android:layout_width="220dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:backgroundTint="@color/dark_green"
+      android:padding="10dp"
+      android:text="Login as Farmer"
+      android:textColor="#FFFFE0"
+      android:textSize="17dp"
+      android:textStyle="normal"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageViewConsumer"
+      app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
