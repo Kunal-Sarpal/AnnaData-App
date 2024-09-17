@@ -80,8 +80,8 @@ class Homepage : AppCompatActivity() {
 }
 ```
 
-###Contribution
+### Contribution
 Feel free to fork the repository and submit pull requests. For any issues or feature requests, please open an issue on the repository.
 
-###License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
