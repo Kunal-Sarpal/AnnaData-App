@@ -16,7 +16,7 @@ class getStartConsumer : AppCompatActivity() {
         val buttonstart = findViewById<Button>(R.id.buttonConsumerLogin11)
 
         buttonstart.setOnClickListener{
-            val intent = Intent(this, homepage::class.java)
+            val intent = Intent(this, FarmerActivity::class.java)
             startActivity(intent);
 
         }

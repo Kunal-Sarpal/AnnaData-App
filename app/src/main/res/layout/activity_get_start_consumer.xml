@@ -33,10 +33,33 @@
         app:shapeAppearanceOverlay="@style/roundedImageView"
         android:src="@drawable/startlogo"
         android:scaleType="centerCrop"
-        android:layout_marginBottom="300dp"
         />
 
+    <GridLayout
 
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Saksham"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:textColor="@color/dark_green"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/location_sign_svgrepo_com"
+            android:hint="LPU, Phagwara, India,Punjab"
+            android:drawablePadding="10dp" android:textAlignment="center"/>
+
+
+    </GridLayout>
     <!-- Farmer Image 1 -->
 
 

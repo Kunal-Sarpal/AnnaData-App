@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_margin="16dp"/>
+        android:layout_margin="5dp"/>
 
     <!-- BottomNavigationView (optional) -->
     <com.google.android.material.bottomnavigation.BottomNavigationView

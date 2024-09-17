@@ -53,7 +53,14 @@
             android:elevation="20dp"/>
 
         <!-- Horizontal ScrollView for crops -->
-
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/getprod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="See Products"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/dark_green"
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,7 +73,6 @@
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_marginTop="16dp"
             android:background="@drawable/button_border"
             android:elevation="10dp">
 
