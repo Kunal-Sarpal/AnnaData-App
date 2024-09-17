@@ -16,7 +16,8 @@ class getStartedPage : AppCompatActivity() {
         val buttonstart = findViewById<Button>(R.id.buttonFarmerLogin11)
 
         buttonstart.setOnClickListener{
-            val intent = Intent(this, FarmerActivity::class.java)
+            val intent = Intent(this, homepage::class.java)
+            intent.putExtra("farmer", "yes")
             startActivity(intent);
 
         }
