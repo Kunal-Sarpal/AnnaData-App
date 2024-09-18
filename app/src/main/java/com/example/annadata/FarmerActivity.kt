@@ -15,13 +15,13 @@ class FarmerActivity : AppCompatActivity() {
         setContentView(R.layout.activity_farmer)
 
         val farmersList = listOf(
-            Farmer("Kunal Sarpal", "⭐⭐⭐⭐", "view", R.drawable.imgg),
-            Farmer("Aditya Raj", "⭐⭐⭐", "view", R.drawable.imgg),
-            Farmer("Krrish Gaur", "⭐⭐⭐", "view", R.drawable.imgg),
-            Farmer("Vipin", "⭐⭐⭐⭐⭐", "view", R.drawable.imgg),
-            Farmer("Shailesh", "⭐⭐⭐⭐⭐", "view", R.drawable.imgg),
-            Farmer("Mohit", "⭐⭐⭐⭐", "view", R.drawable.imgg),
-            Farmer("Suraj Kumar", "⭐⭐⭐⭐", "view", R.drawable.imgg)
+            Farmer("Kunal Sarpal", "⭐⭐⭐⭐", "view", R.drawable.farmer4),
+            Farmer("Saksham Sharma", "⭐⭐⭐", "view", R.drawable.farmer5),
+            Farmer("Krrish Gaur", "⭐⭐⭐", "view", R.drawable.farmer6),
+            Farmer("Vipin", "⭐⭐⭐⭐⭐", "view", R.drawable.farmer1),
+            Farmer("Shailesh", "⭐⭐⭐⭐", "view", R.drawable.farmer3),
+            Farmer("Vikalp", "⭐⭐⭐⭐", "view", R.drawable.farmer7),
+            Farmer("Suraj Kumar", "⭐⭐⭐⭐", "view", R.drawable.farmer8)
         )
 
         // Initialize RecyclerView

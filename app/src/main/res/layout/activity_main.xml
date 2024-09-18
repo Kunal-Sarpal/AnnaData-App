@@ -35,7 +35,7 @@
       android:background="@drawable/rectangleview"
       android:contentDescription="Image of Farmer"
       android:elevation="20dp"
-      android:src="@drawable/imgg"
+      android:src="@drawable/farmer2"
       app:layout_constraintBottom_toTopOf="@+id/buttonConsumerLogin1"
       app:layout_constraintEnd_toEndOf="parent"
 
@@ -83,7 +83,7 @@
       android:background="@drawable/rectangleview"
       android:contentDescription="Image of Consumer"
       android:elevation="20dp"
-      android:src="@drawable/imgg"
+      android:src="@drawable/farmer6"
       app:layout_constraintBottom_toTopOf="@+id/buttonConsumerLogin1"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
